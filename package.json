@@ -1,0 +1,24 @@
+{
+  "name": "spark-ar-ts",
+  "version": "1.0.0",
+  "description": "Typescript definitions for Spark AR",
+  "main": "index.js",
+  "author": "Mikko Haapoja<me@mikkoh.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "concurrently": "^4.1.0",
+    "jest": "^24.5.0",
+    "nodemon": "^1.18.10",
+    "ts-jest": "^24.0.0",
+    "typescript": "^3.3.4000"
+  },
+  "scripts": {
+    "test": "jest",
+    "test-watch": "jest --watch",
+    "watch": "concurrently \"yarn watch-ts\" \"yarn watch-js\"",
+    "watch-js": "nodemon lib/index.js",
+    "watch-ts": "tsc -w",
+    "build": "tsc"
+  }
+}
