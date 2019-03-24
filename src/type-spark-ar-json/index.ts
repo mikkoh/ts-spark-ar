@@ -1,7 +1,9 @@
 import enumDefinition from './enum-definition';
+import classDefintion from './class-defintion';
 
-type SparkARJson = {
+type sparkARJson = {
   enums: enumDefinition[],
+  classes: classDefintion[],
 };
 
-export default SparkARJson;
+export default sparkARJson;
