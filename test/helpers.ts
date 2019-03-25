@@ -3,7 +3,8 @@ function removeExtraWhiteSpace(value: string): string {
     .replace(/\n/g, ' ')
     .replace(/(\s)+/g, (_match, whiteSpace) => {
       return whiteSpace;
-    });
+    })
+    .trim();
 }
 
 export {
