@@ -1,5 +1,5 @@
 {
-  "name": "spark-ar-ts",
+  "name": "ts-spark-ar",
   "version": "1.0.0",
   "description": "Typescript definitions for Spark AR",
   "main": "index.js",
